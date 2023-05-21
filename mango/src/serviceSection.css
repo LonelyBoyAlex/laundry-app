@@ -1,0 +1,21 @@
+.p{
+    font-weight:400;
+    font-size: 18px;
+    color:rgb(8, 8, 8);
+}
+
+.service{
+    background-color: rgb(247, 247, 247);
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+
+
+.process{
+    background-color: rgb(12, 113, 196);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    color: aliceblue;
+}
+

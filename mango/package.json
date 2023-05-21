@@ -1,0 +1,72 @@
+{
+  "name": "mango",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:3001",
+  "dependencies": {
+    "@flaticon/flaticon-uicons": "^1.7.0",
+    "@fortawesome/fontawesome-svg-core": "^6.2.1",
+    "@fortawesome/free-solid-svg-icons": "^6.2.1",
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/icons": "^4.11.3",
+    "@material-ui/lab": "^4.0.0-alpha.61",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.2.2",
+    "bootstrap": "^5.1.3",
+    "font-awesome": "^4.7.0",
+    "formik": "^2.2.9",
+    "install": "^0.13.0",
+    "jwt-decode": "^3.1.2",
+    "material-auto-rotating-carousel": "^3.0.2",
+    "mdb-react-ui-kit": "^5.1.0",
+    "react": "^18.2.0",
+    "react-auto-typing": "^1.0.0",
+    "react-bootstrap": "^2.0.3",
+    "react-dom": "^18.2.0",
+    "react-fast-marquee": "^1.3.5",
+    "react-grid-carousel": "^1.0.1",
+    "react-hot-toast": "^2.4.0",
+    "react-icons": "^4.7.1",
+    "react-material-ui-carousel": "^3.4.2",
+    "react-places-autocomplete": "^7.3.0",
+    "react-responsive-carousel": "^3.2.23",
+    "react-router-dom": "^5.3.4",
+    "react-scripts": "5.0.1",
+    "react-scroll": "^1.8.9",
+    "react-slick": "^0.29.0",
+    "react-spinners": "^0.13.7",
+    "react-swiper": "^0.1.5",
+    "reactstrap": "^9.1.5",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^5.3.6",
+    "swiper": "^8.0.0",
+    "web-vitals": "^2.1.4",
+    "zustand": "^4.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
