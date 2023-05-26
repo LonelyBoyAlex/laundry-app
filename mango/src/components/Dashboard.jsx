@@ -30,25 +30,26 @@ useEffect(() => {
           <>
           <Sidebar />
 
-          
+
           <section className = "topdash"><h1>WELCOME TO DASH</h1></section>
-             <div     class     = "container">
-                <div     className = 'box' >
-                    <h4>
+          <div     class     = "container">
+          <div     className = 'box oneb' >
+                    
                        services
-                     </h4>
+                       
+                    
                 </div>
 
-                <div className = 'box' >
-                     <h4>
+                <div className = 'box twob' >
+                     
                        history
-                     </h4>
+                     
                 </div>
 
-                <div className = 'box' >
-                      <h4>
+                <div className = 'box threeb' >
+                    
                         profile
-                      </h4>
+                     
                 </div>
                 
               </div>

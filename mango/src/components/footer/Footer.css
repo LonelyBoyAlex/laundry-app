@@ -1,23 +1,10 @@
-*{
-  align-items: top;
-  align-content: center;
-  justify-content: top;
-  height: auto; /* Specify the desired height */
-  max-width: 100vw; /* Specify the maximum width */
-  margin: 0 auto;
-}
-
 .footer-dark {
-   
     padding:0px 0;
     color:#f0f9ff;
     background-color:#282d32;
     
   }
-.logo {
-  margin-top: 10vh;
-  align-items: center;
-}
+
   .marg{
     padding-top:40px;
   }
@@ -46,62 +33,6 @@
   .footer-dark ul a:hover {
     opacity:0.8;
   }
-
-  
-  .footer-dark .item.social > a {
-    font-size:20px;
-    width:36px;
-    height:36px;
-    line-height:36px;
-    display:inline-block;
-    text-align:center;
-    border-radius:50%;
-    box-shadow:0 0 0 1px rgba(255,255,255,0.4);
-    margin:0 8px;
-    color:#fff;
-    opacity:0.75;
-  }
-  
-  .footer-dark .item.social > a:hover {
-    opacity:0.4;
-    
-
-  }
-  
-  .footer-dark .copyright {
-    text-align:center;
-    padding-top:10vh;
-    opacity:0.3;
-    font-size:13px;
-    margin-bottom:0;
-    color:white;
-  }
-
-  .fa-heart{
-    color: red;
-    color:rgba(62, 63, 63, 0.8)
-  }
-
-  .line{
-    margin-top: 4vh;
-    border:1px solid rgb(150, 147, 147);
-    opacity: .4;
-  }
-
-  .line1{
-    margin-top: 20vh;
-  }
-
-  .company{
-    padding-top: 85px;
-  }
- 
-  .head{
-    color: white;
-  }
-
-
-  /*media_Queries-below*/
   
   @media (max-width:767px) {
     .footer-dark .item:not(.social) {
@@ -137,3 +68,54 @@
     }
   }
   
+  .footer-dark .item.social > a {
+    font-size:20px;
+    width:36px;
+    height:36px;
+    line-height:36px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    box-shadow:0 0 0 1px rgba(255,255,255,0.4);
+    margin:0 8px;
+    color:#fff;
+    opacity:0.75;
+  }
+  
+  .footer-dark .item.social > a:hover {
+    opacity:0.4;
+    
+
+  }
+  
+  .footer-dark .copyright {
+    text-align:center;
+    padding-top:24px;
+    opacity:0.3;
+    font-size:13px;
+    margin-bottom:0;
+    color:white;
+  }
+
+  .fa-heart{
+    color: red;
+    color:rgba(62, 63, 63, 0.8)
+  }
+
+  .line{
+    margin-top: 40px;
+    border:1px solid rgb(150, 147, 147);
+    opacity: .4;
+  }
+
+  .line1{
+    margin-top: 40px;
+  }
+
+  .company{
+    padding-top: 20px;
+  }
+ 
+  .head{
+    color: white;
+  }
