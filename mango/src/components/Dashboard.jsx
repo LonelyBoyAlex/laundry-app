@@ -1,35 +1,63 @@
-import React, { useEffect, useState } from 'react'
-import Sidebar from './sidebar/Sidebar'
-import welcome from "../Assets/welcome.jpg"
+import React    ,          { useEffect, useState } from 'react'
+import Sidebar        from './sidebar/Sidebar'
+import Footer         from "../components/footer/Footer"
+import welcome        from "../Assets/welcome.jpg"
 import { FadeLoader } from 'react-spinners'
 import "./Dashboard.css"
 function Dashboard() {
 
  
-const [loading,setLoading]= useState(false);
+const [loading,setLoading] = useState(false);
 
 useEffect(() => {
   setLoading(true)
 
   setTimeout(() => {
    setLoading(false)
-  },2300)
+  },0)
 }, [])
   return (
     
     <>
     {
  loading ?
- <div className='loader'>
+ <div className = 'loader'>
 
- <FadeLoader color={"black"} size={100} loading={loading}/>
+ <FadeLoader color = {"black"} size = {100} loading = {loading}/>
  </div>
-:
-    <div>
-            <Sidebar/>
-        <div className='container text-center heading fs-1' style={{color:"rgb(44, 103, 211)"}} ><img src={welcome} className="container img-fluid text-center logo"/> </div>
-        
-    </div>
+
+: 
+          <>
+          <Sidebar />
+
+          
+          <section className = "topdash"><h1>WELCOME TO DASH</h1></section>
+             <div     class     = "container">
+                <div     className = 'box' >
+                    <h4>
+                       services
+                     </h4>
+                </div>
+
+                <div className = 'box' >
+                     <h4>
+                       history
+                     </h4>
+                </div>
+
+                <div className = 'box' >
+                      <h4>
+                        profile
+                      </h4>
+                </div>
+                
+              </div>
+
+
+
+          <Footer />
+                 </>
+
 }
 </>
   )
